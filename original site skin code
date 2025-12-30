@@ -11,8 +11,7 @@
 #main input[type="submit"],
 #main button,
 #main .current,
-#main .actions label,
-.actions button {
+#main .actions label {
   color: #000 !important;
   border-color: #92C1DB;
   background: #92c1db !important;
@@ -349,13 +348,6 @@ form.verbose legend,
 .verbose form legend,
 fieldset fieldset {
   background: #000;
-}
-
-#main button {
-  color: #92c1db !important;
-  border-color: #92C1DB;
-  background: #000 !important;
-  box-shadow: 0 0 20px 0 rgba(61, 170, 245, 0.37), 0 0 20px 0 rgba(30, 206, 239, 0.48);
 }
 
 #dashboard a,
