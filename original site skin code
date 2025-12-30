@@ -11,7 +11,8 @@
 #main input[type="submit"],
 #main button,
 #main .current,
-#main .actions label {
+#main .actions label,
+.actions button {
   color: #000 !important;
   border-color: #92C1DB;
   background: #92c1db !important;
