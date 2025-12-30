@@ -185,7 +185,8 @@ a.work,
 .error,
 a.cloud7,
 a.cloud8,
-h4.viewed.heading {
+h4.viewed.heading,
+.splash .module h3 {
   color: #9edcff;
   background: #000;
 }
@@ -307,7 +308,8 @@ h3,
 h4,
 h5,
 h6,
-.heading {
+.heading,
+.splash .module h3 {
   border: #9edcff;
   background: transparent;
   color: #9edcff;
