@@ -12,9 +12,9 @@
 #main button,
 #main .current,
 #main .actions label {
-  color: #92c1db !important;
+  color: #000 !important;
   border-color: #92C1DB;
-  background: #000 !important;
+  background: #92c1db !important;
   box-shadow: 0 0 30px 0 rgba(61, 170, 245, 0.37), 0 0 30px 0 rgba(30, 206, 239, 0.48);
 }
 
