@@ -25,7 +25,12 @@
 #footer .actions a,
 #footer .actions a:visited,
 #footer .actions a:hover,
-#footer .actions a:focus {
+#footer .actions a:focus,
+#header a,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus{
   color: #51b7f0;
 }
 
@@ -37,6 +42,16 @@
 
 .splash .favorite li:nth-of-type(odd) a {
 background: #000;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus {
+  background: #9edcff;
+}
+
+.splash .favorite li:nth-of-type(even) a:hover,
+.splash .favorite li:nth-of-type(even) a:focus {
+  background: #8bc1e1;
 }
 
 .actions a,
@@ -54,6 +69,10 @@ a.cloud5 {
 a:visited,
 a.cloud6 {
   color: #0f4a59c;
+}
+
+a:visited:hover {
+  color: #51b7f0;
 }
 
 .actions a:active,
@@ -103,10 +122,6 @@ form blockquote.userstuff {
 
 #header .heading sup {
   visibility: hidden;
-}
-
-#main .icon {
-  display: none;
 }
 
 #header .actions a:hover,
@@ -188,6 +203,10 @@ li.blurb,
 .listbox .index,
 .dashboard .listbox .index {
   box-shadow: 0 0 24px 0 rgba(61, 170, 245, 0.37), 0 0 30px 0 rgba(30, 206, 239, 0.48);
+}
+
+a.tag:hover {
+  background: #79cad5;
 }
 
 li.relationships a,
@@ -290,43 +309,12 @@ h5,
 h6,
 .heading {
   border: #9edcff;
-  background: #000;
+  background: transparent;
   color: #9edcff;
 }
 
-div.flash {
-  border: none;
+div.flash.notice {
   box-shadow: none;
-}
-
-.blurb h4.heading,
-.blurb .header .heading {
-  margin: 0;
-}
-
-.blurb ul.required-tags {
-  position: initial;
-  top: initial;
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-  margin: auto;
-}
-
-.blurb ul.required-tags li + li + li,
-.blurb ul.required-tags li + li + li + li {
-  position: initial;
-  left: initial;
-}
-
-.blurb ul.required-tags li {
-  display: inline-flex;
-}
-
-.blurb .datetime {
-  position: initial;
-  text-align: center;
-  margin-top: 5px;
 }
 
 #footer.region,
@@ -345,4 +333,53 @@ a {
   color: #92C1DB;
 }
 
+#footer a,
+#footer button {
+  color: #51b7f0;
+}
 
+#header,
+#header .primary,
+#outer,
+.listbox .index,
+form.verbose legend,
+.verbose form legend,
+fieldset fieldset {
+  background: #000;
+}
+
+#main button {
+  color: #92c1db !important;
+  border-color: #92C1DB;
+  background: #000 !important;
+  box-shadow: 0 0 20px 0 rgba(61, 170, 245, 0.37), 0 0 20px 0 rgba(30, 206, 239, 0.48);
+}
+
+#dashboard a,
+#dashboard span {
+  color: #92C1DB;
+}
+
+a,
+a:link {
+  color: #9edcff;
+}
+
+#header #search .text,
+form.search input[type="text"] {
+  background: #8bc1e1;
+}
+
+#dashboard,
+#dashboard.own {
+  border-bottom: 10px solid #92c1db;
+  border-top: 10px solid #92c1db;
+}
+
+dl.meta {
+  box-shadow: 0 0 24px 0 rgba(61, 170, 245, 0.37), 0 0 30px 0 rgba(30, 206, 239, 0.48);
+}
+
+form dd.required {
+  color: #92C1DB;
+}
