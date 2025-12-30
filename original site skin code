@@ -68,7 +68,7 @@ a.cloud5 {
 
 a:visited,
 a.cloud6 {
-  color: #0f4a59c;
+  color: #0f4a59;
 }
 
 a:visited:hover {
