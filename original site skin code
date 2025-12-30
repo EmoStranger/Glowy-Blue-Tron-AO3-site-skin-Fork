@@ -9,7 +9,7 @@
 #main .action,
 #main .actions input,
 #main input[type="submit"],
-.actions button,
+#main button,
 #main .current,
 #main .actions label {
   color: #000 !important;
